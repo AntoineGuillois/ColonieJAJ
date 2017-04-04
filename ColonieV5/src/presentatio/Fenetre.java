@@ -22,7 +22,7 @@ public class Fenetre extends JFrame implements ActionListener {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// Instanciation d'un objet JPanel
-		this.setContentPane(new Panneau());
+		//this.setContentPane(new Panneau());
 		this.getContentPane().add(boutonAtelier, BorderLayout.SOUTH);
 		boutonAtelier.setPreferredSize(new Dimension(500, 200));
 		this.getContentPane().add(boutonEnfant, BorderLayout.WEST);
