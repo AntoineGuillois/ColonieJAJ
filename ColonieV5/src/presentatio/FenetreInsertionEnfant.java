@@ -65,7 +65,7 @@ public class FenetreInsertionEnfant extends JFrame {
 				e.setAgeEnfant(Integer.parseInt(ageEnfant.getText()));
 				try {
 					EnfantDAOImpl.getInstance().ajoutEnfant(e);
-					
+					System.out.println("ok");
 				} catch (DAOException e1) {
 					e1.printStackTrace();
 				}
