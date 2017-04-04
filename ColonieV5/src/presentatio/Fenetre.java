@@ -16,14 +16,14 @@ public class Fenetre extends JFrame implements ActionListener {
 
 	public Fenetre() {
 
-		this.setTitle("Colonie");
+		this.setTitle("Colon");
 		this.setSize(950, 800);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// Instanciation d'un objet JPanel
 		//this.setContentPane(new Panneau());
-		this.getContentPane().add(boutonAtelier, BorderLayout.SOUTH);
+		//this.getContentPane().add(boutonAtelier, BorderLayout.SOUTH);
 		boutonAtelier.setPreferredSize(new Dimension(500, 200));
 		this.getContentPane().add(boutonEnfant, BorderLayout.WEST);
 		boutonEnfant.setPreferredSize(new Dimension(500, 200));

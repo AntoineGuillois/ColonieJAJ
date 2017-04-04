@@ -11,9 +11,7 @@ public class Panneau extends JPanel {
 
   public void paintComponent(Graphics g){/*
     try {
-      BufferedImage img = ImageIO.read(new File("C:/Users/Herve/git/ColonieV5/ColonieV5/src/presentatio/colo.jpg"));
       //Pour une image de fond
-      g.drawImage(img, 0, 0, this.getWidth(), this.getHeight(), this);
     	
     } catch (IOException e) {
       e.printStackTrace();
