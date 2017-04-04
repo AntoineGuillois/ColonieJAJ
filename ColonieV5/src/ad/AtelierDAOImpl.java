@@ -26,7 +26,11 @@ public class AtelierDAOImpl extends AtelierDAOcon implements IntAtelierDAO {
 	}
 
 	
+<<<<<<< HEAD
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+=======
+	////////////////////////////////////////////////////////////
+>>>>>>> branch 'master' of https://github.com/AntoineGuillois/ColonieJAJ.git
 
 	@Override
 	public void ajoutAtelier(Atelier a) throws DAOException {

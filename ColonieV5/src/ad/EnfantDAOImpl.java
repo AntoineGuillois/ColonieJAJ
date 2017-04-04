@@ -25,7 +25,11 @@ public class EnfantDAOImpl extends EnfantDAOcon implements IntEnfantDAO {
 		return instance;
 	}
 
+<<<<<<< HEAD
 	////////////////////////////////////////////////////////////////////////////////////////////////
+=======
+	///////////////////////////////////////////////////////////
+>>>>>>> branch 'master' of https://github.com/AntoineGuillois/ColonieJAJ.git
 
 	@Override
 	public void ajoutEnfant(Enfant e) throws DAOException {
