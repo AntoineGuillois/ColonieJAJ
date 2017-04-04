@@ -8,7 +8,7 @@ public class Ecran {
 	    fenetre.setVisible(true);
 	    
 	    //La la la la la bla bla bla bla bla bla bla 
-	    //erokf
+	    //erokf modification encore de la part d'Antoine !!!!!!!!!!!!!!!!!!!!!!!!!
 	}
 
 }
